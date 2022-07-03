@@ -25,25 +25,8 @@ public class ExercisesCriptoBasic {
             int num4 = ((num/1) + 7) % 10;
             String cifrado1 = num1 +""+ num2 +""+ num3 +""+num4;
             String cifrado2 = num3 +""+ num4 +""+ num1 +""+num2;
-            System.out.println(cifrado1);
-            System.out.println(cifrado2);
-
-            // proceso de descifrado
-            int numd3,divEnt;
-            if (num3 < 7){
-                divEnt = 1;
-                numd3 = ((10 * divEnt) + num3 ) - 7;
-                System.out.println("Descifrado : " + numd3 );
-            }else {
-                divEnt = 0;
-                numd3 = ((10 * divEnt) + num3 ) - 7;
-                System.out.println("Descifrado : " + numd3 );
-            }
-
-
-
-
-
+            System.out.println("Realizando el primer cifrado --- " + cifrado1);
+            System.out.println("Cifrado final realizado " + cifrado2);
 
         }
 
