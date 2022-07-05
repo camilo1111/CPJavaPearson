@@ -21,7 +21,7 @@ public class ExerciseDesCriptoBasic {
             num = num % 100;
             int num3 = (num / 10);
             num = num % 10;
-            int num4 = (num / 1);
+            int num4 = (num);
             String cifrado1 = num1 + "-" + num2 + "-" + num3 + "-" + num4;
 
             System.out.println("Descomprimiendo numero de manera correcta ...."+cifrado1);
